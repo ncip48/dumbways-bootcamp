@@ -78,10 +78,11 @@ Di sebuah function memiliki sebuah parameter berupa array yang berisi array yang
 1. Tampilkan seluruh data dari table video beserta category
 2. Tampilkan seluruh data video berdasarkan category tertentu
 3. Tampilkan spesifik data video dengan Category
+4. SS hasil query POST / menambah data.
 
 #### 4.A.1
 
-query dan menampikan hasil query tabel category
+query dan result query tabel category
 
 ![ss3](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/3.png)
 
@@ -90,7 +91,7 @@ result :
 
 ![ss4](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/4.png)
 
-query dan menampikan hasil query tabel video
+query dan result query tabel video
 
 ![ss1](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/1.png)
 
@@ -101,7 +102,7 @@ result :
 
 ### 4.A.2
 
-query menampilkan data video berdasarkan category tertentu
+query dan result data video berdasarkan category tertentu
 
 > category musik
 
@@ -126,3 +127,32 @@ query menampilkan data video berdasarkan category tertentu
 > result:
 
 > ![ss7](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/7.png)
+
+### 4.A.3
+
+query dan result spesifik data video dengan category
+
+	select a.*,b.name FROM video_tb a JOIN category_tb b ON a.category_id=b.id
+	
+result:
+
+> ![ss8](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/8.png)
+
+### 4.A.4
+
+> insert ke tabel category
+
+	insert into category_tb (name) VALUES("Musik")
+	
+> result:
+
+> ![ss10](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/10.png)
+
+> insert ke tabel video
+
+	insert into video_tb (title,category_id,attache,thumbnail) VALUES("Ditinggal Rabi","1","vid1.mp4","vid1.jpg")
+	
+> result:
+
+> ![ss12](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/12.png)
+
