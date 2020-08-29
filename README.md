@@ -76,6 +76,9 @@ Di sebuah function memiliki sebuah parameter berupa array yang berisi array yang
 ### 4.A
 
 hasil ada di [4.txt](https://github.com/ncip48/dumbways-bootcamp/blob/master/4.txt)
+
+hasil SQL ada di [4.sql](https://github.com/ncip48/dumbways-bootcamp/blob/master/4.sql)
+
 1. Tampilkan seluruh data dari table video beserta category
 2. Tampilkan seluruh data video berdasarkan category tertentu
 3. Tampilkan spesifik data video dengan Category
@@ -163,3 +166,11 @@ hasil 4.B ada di direktori [result_4b](https://github.com/ncip48/dumbways-bootca
 
 saya menggunakan php untuk websitenya, bahan yang digunakan untuk membuka website yaitu XAMPP dan aktifkan apache servernya
 mysql server saya memakai mysql server di hostingan saya, jadi tinggal buka indexnya saja
+
+Screenshoot: 
+![ss13](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/13.png)
+![ss14](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/14.png)
+![ss15](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/15.png)
+![ss16](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/16.png)
+![ss17](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/17.png)
+![ss18](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/18.png)
