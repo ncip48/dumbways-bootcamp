@@ -1,0 +1,8 @@
+select * from category_id
+select * from video_id
+select * from video_tb a JOIN category_tb b ON a.category_id=b.id WHERE a.category=1
+select * from video_tb a JOIN category_tb b ON a.category_id=b.id WHERE a.category=2
+select * from video_tb a JOIN category_tb b ON a.category_id=b.id WHERE a.category=3
+select a.*,b.name FROM video_tb a JOIN category_tb b ON a.category_id=b.id
+insert into category_tb (name) VALUES("Musik")
+insert into video_tb (title,category_id,attache,thumbnail) VALUES("Ditinggal Rabi","1","vid1.mp4","vid1.jpg")
