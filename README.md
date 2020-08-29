@@ -73,3 +73,56 @@ Di sebuah function memiliki sebuah parameter berupa array yang berisi array yang
 	console.log(sort_array(datalain));
 
 ## Soal No. 4
+### 4.A
+
+1. Tampilkan seluruh data dari table video beserta category
+2. Tampilkan seluruh data video berdasarkan category tertentu
+3. Tampilkan spesifik data video dengan Category
+
+#### 4.A.1
+
+query dan menampikan hasil query tabel category
+
+![ss3](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/3.png)
+
+	select * from category_id
+result : 
+
+![ss4](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/4.png)
+
+query dan menampikan hasil query tabel video
+
+![ss1](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/1.png)
+
+	select * from video_id
+result : 
+
+![ss2](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/2.png)
+
+### 4.A.2
+
+query menampilkan data video berdasarkan category tertentu
+
+> category musik
+
+	select * from video_tb a JOIN category_tb b ON a.category_id=b.id WHERE a.category=1
+	
+> result:
+
+> ![ss5](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/5.png)
+
+> category komedi
+
+	select * from video_tb a JOIN category_tb b ON a.category_id=b.id WHERE a.category=2
+	
+> result:
+
+> ![ss6](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/6.png)
+
+> category horror
+
+	select * from video_tb a JOIN category_tb b ON a.category_id=b.id WHERE a.category=3
+	
+> result:
+
+> ![ss7](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/7.png)
