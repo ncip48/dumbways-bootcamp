@@ -1,7 +1,7 @@
 <?php
 $id = $_GET['id'];
 include_once("utils/db_connection.php");
-$result = mysqli_query($conn, "SELECT * FROM video_tb WHERE id=1");
+$result = mysqli_query($conn, "SELECT a.*, b.name, b.id as id_category FROM video_tb a JOIN category_tb b ON a.category_id = b.id WHERE a.id=$id");
 $r = mysqli_fetch_row($result);
 ?>
 <!doctype html>
@@ -27,6 +27,8 @@ $r = mysqli_fetch_row($result);
                     <video width="100%" controls>
                         <source src="src/video/<?= $r[3] ?>" type="video/mp4">
                     </video>
+                    <h2><?= $r[1] ?></h2>
+                    <h6>Kategori: <?= $r[5] ?></h6>
                 </div>
             </div>
         </div>

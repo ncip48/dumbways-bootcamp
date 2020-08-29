@@ -1,4 +1,4 @@
-<?php $base_url="http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/'; ?>
+<?php $base_url = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER["REQUEST_URI"] . '?') . '/'; ?>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container">
@@ -10,10 +10,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a id="add_cat" class="nav-link btn btn-danger btn-sm text-white mx-1 my-1" href="#">Add Category</a>
+                        <a id="add_cat" class="nav-link btn btn-danger btn-sm text-white mx-1 my-1" href="#" data-toggle='modal' data-target='#addCategory'>Add Category</a>
                     </li>
                     <li class="nav-item">
-                        <a id="add_video" class="nav-link btn btn-danger btn-sm text-white mx-1 my-1" href="#">Add Video</a>
+                        <a id="add_video" class="nav-link btn btn-danger btn-sm text-white mx-1 my-1" href="#" data-toggle='modal' data-target='#addVideo'>Add Video</a>
                     </li>
                 </ul>
             </div>
