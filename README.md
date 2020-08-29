@@ -1,5 +1,7 @@
 # Bootcamp DumbWays Test
 ## Soal No. 1
+> * Bahasa yang saya gunakan JavaScript
+> * Cara menjalankan dengan online compiler https://es6console.com/
 
 	function count_handshake(number){
 		var hasil = 0;
@@ -11,6 +13,8 @@
 	console.log(count_handshake(6))
 
 ## Soal No. 2
+> * Bahasa yang saya gunakan JavaScript
+> * Cara menjalankan dengan online compiler https://es6console.com/
 
 	function print_random_char() {
 		var karakter = "1234567890abcdefghijklmnopqrstuvwxyz";
@@ -36,6 +40,8 @@
 	console.log(generate(3));
 
 ## Soal No. 3
+> * Bahasa yang saya gunakan JavaScript
+> * Cara menjalankan dengan online compiler https://es6console.com/
 
 	function sort_array(array){
   		for(var i = 0; i < array.length; i++){
