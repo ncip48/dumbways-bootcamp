@@ -75,6 +75,7 @@ Di sebuah function memiliki sebuah parameter berupa array yang berisi array yang
 ## Soal No. 4
 ### 4.A
 
+hasil ada di [4.txt](https://github.com/ncip48/dumbways-bootcamp/blob/master/4.txt)
 1. Tampilkan seluruh data dari table video beserta category
 2. Tampilkan seluruh data video berdasarkan category tertentu
 3. Tampilkan spesifik data video dengan Category
@@ -156,3 +157,6 @@ result:
 
 > ![ss12](https://github.com/ncip48/dumbways-bootcamp/blob/master/ss/12.png)
 
+## 4.B
+
+hasil 4.B ada di direktori [result_4b](https://github.com/ncip48/dumbways-bootcamp/blob/master/result_4b)
