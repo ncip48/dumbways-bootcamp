@@ -76,6 +76,9 @@ Di sebuah function memiliki sebuah parameter berupa array yang berisi array yang
 ### 4.A
 
 hasil ada di [4.txt](https://github.com/ncip48/dumbways-bootcamp/blob/master/4.txt)
+
+hasil SQL ada di [4.sql](https://github.com/ncip48/dumbways-bootcamp/blob/master/4.sql)
+
 1. Tampilkan seluruh data dari table video beserta category
 2. Tampilkan seluruh data video berdasarkan category tertentu
 3. Tampilkan spesifik data video dengan Category
